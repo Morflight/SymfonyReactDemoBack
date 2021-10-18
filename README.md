@@ -8,5 +8,11 @@ Initialization :
 `git clone git@github.com:Morflight/SymfonyReactDemoBack.git`
 `composer install`
 
-Utilisation :
-Using Insomnia/Postman
+Usage :
+First, run the server
+`symfony server:start`
+
+Then, using Insomnia/Postman or even your browser
+GET https://localhost:8000/test
+
+This is the only functionning endpoint for now, there's more to come.
