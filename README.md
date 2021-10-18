@@ -8,6 +8,9 @@ Initialization :
 `git clone git@github.com:Morflight/SymfonyReactDemoBack.git`
 `composer install`
 
+Do not forget to add your own Marvel api credentials in a .env file.
+For developpment purposes, please use a .env.local (gitignored by default).
+
 Usage :
 First, run the server
 `symfony server:start`
